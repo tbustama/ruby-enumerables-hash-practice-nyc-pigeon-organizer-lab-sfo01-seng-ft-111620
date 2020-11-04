@@ -1,5 +1,3 @@
-require "pry"
-
 def nyc_pigeon_organizer(data)
   hash = {}
   data.each do |k1, v1|
@@ -18,7 +16,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  binding.pry
   hash
 end
 
